@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest", "HexagonalArchTest\HexagonalArchTest\HexagonalArchTest.csproj", "{BEC87BDC-587A-494D-A753-BD8371FD4DB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.Domain", "HexagonalArchTest\HexagonalArchTest.Domain\HexagonalArchTest.Domain.csproj", "{CF655CAB-5732-420A-922D-56434D5422F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.DomainApi", "HexagonalArchTest\HexagonalArchTest.DomainApi\HexagonalArchTest.DomainApi.csproj", "{C482CEE5-2800-4792-B85B-2DCDA38C56E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.Persistence.Adapter", "HexagonalArchTest\HexagonalArchTest.Persistence.Adapter\HexagonalArchTest.Persistence.Adapter.csproj", "{56C2E7BC-B323-49C9-B1B7-A076F537CD5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.RestAdapter", "HexagonalArchTest\HexagonalArchTest.RestAdapter\HexagonalArchTest.RestAdapter.csproj", "{8C7F95CF-83A6-4D06-808A-801F00AE9FF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.Domain.UnitTest", "HexagonalArchTest\HexagonalArchTest.Domain.UnitTest\HexagonalArchTest.Domain.UnitTest.csproj", "{2E2306D8-35C2-404C-A189-79A0B780E9BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.DomainApi.UnitTest", "HexagonalArchTest\HexagonalArchTest.DomainApi.UnitTest\HexagonalArchTest.DomainApi.UnitTest.csproj", "{F66C8D38-6D49-4BB5-8D5A-61A3D99B6EDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.Persistence.Adapter.UnitTest", "HexagonalArchTest\HexagonalArchTest.Persistence.Adapter.UnitTest\HexagonalArchTest.Persistence.Adapter.UnitTest.csproj", "{5197A96E-4BAC-4F46-8DEE-4EDB2729819F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HexagonalArchTest.RestAdapter.UnitTest", "HexagonalArchTest\HexagonalArchTest.RestAdapter.UnitTest\HexagonalArchTest.RestAdapter.UnitTest.csproj", "{9E2D3AB7-35A8-4F6C-B3C4-6EA48FB587C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC87BDC-587A-494D-A753-BD8371FD4DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC87BDC-587A-494D-A753-BD8371FD4DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC87BDC-587A-494D-A753-BD8371FD4DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC87BDC-587A-494D-A753-BD8371FD4DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF655CAB-5732-420A-922D-56434D5422F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF655CAB-5732-420A-922D-56434D5422F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF655CAB-5732-420A-922D-56434D5422F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF655CAB-5732-420A-922D-56434D5422F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C482CEE5-2800-4792-B85B-2DCDA38C56E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C482CEE5-2800-4792-B85B-2DCDA38C56E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C482CEE5-2800-4792-B85B-2DCDA38C56E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C482CEE5-2800-4792-B85B-2DCDA38C56E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C2E7BC-B323-49C9-B1B7-A076F537CD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C2E7BC-B323-49C9-B1B7-A076F537CD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C2E7BC-B323-49C9-B1B7-A076F537CD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C2E7BC-B323-49C9-B1B7-A076F537CD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7F95CF-83A6-4D06-808A-801F00AE9FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7F95CF-83A6-4D06-808A-801F00AE9FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7F95CF-83A6-4D06-808A-801F00AE9FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7F95CF-83A6-4D06-808A-801F00AE9FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2306D8-35C2-404C-A189-79A0B780E9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2306D8-35C2-404C-A189-79A0B780E9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2306D8-35C2-404C-A189-79A0B780E9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2306D8-35C2-404C-A189-79A0B780E9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66C8D38-6D49-4BB5-8D5A-61A3D99B6EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66C8D38-6D49-4BB5-8D5A-61A3D99B6EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66C8D38-6D49-4BB5-8D5A-61A3D99B6EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66C8D38-6D49-4BB5-8D5A-61A3D99B6EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5197A96E-4BAC-4F46-8DEE-4EDB2729819F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5197A96E-4BAC-4F46-8DEE-4EDB2729819F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5197A96E-4BAC-4F46-8DEE-4EDB2729819F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5197A96E-4BAC-4F46-8DEE-4EDB2729819F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2D3AB7-35A8-4F6C-B3C4-6EA48FB587C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2D3AB7-35A8-4F6C-B3C4-6EA48FB587C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2D3AB7-35A8-4F6C-B3C4-6EA48FB587C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2D3AB7-35A8-4F6C-B3C4-6EA48FB587C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54BF8500-510D-450C-B6F3-4A08D33B18F5}
+	EndGlobalSection
+EndGlobal
