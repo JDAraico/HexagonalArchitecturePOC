@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\HexagonalArchTest.DomainApi\HexagonalArchTest.DomainApi.csproj" />
     <ProjectReference Include="..\HexagonalArchTest.Persistence.Adapter\HexagonalArchTest.Persistence.Adapter.csproj" />
+    <ProjectReference Include="..\HexagonalArchTest.RestAdapter\HexagonalArchTest.RestAdapter.csproj" />
   </ItemGroup>
 
 </Project>

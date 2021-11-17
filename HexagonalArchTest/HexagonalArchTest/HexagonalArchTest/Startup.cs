@@ -10,6 +10,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using HexagonalArchTest.DomainApi.Services.AppDetail;
+using AutoWrapper;
+using HexagonalArchTest.RestAdapter.CustomExceptions;
 
 namespace HexagonalArchTest
 {
@@ -35,6 +37,8 @@ namespace HexagonalArchTest
 
             services.AddDomain();
 
+            services.AddCustomExceptions();
+
             services.AddSwaggerOpenAPI(AppSettings);
 
             services.AddApiVersion();
@@ -49,6 +53,8 @@ namespace HexagonalArchTest
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseAutoWrapper();
 
             app.UseHttpsRedirection();
 
